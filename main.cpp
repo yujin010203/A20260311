@@ -7,9 +7,6 @@ int main()
 	int A[3] = { 1, 2, 3 };
 	int* P = A;
 
-	//cout << A << endl;
-	//cout << *P << endl;
-
 	// 문자열 개수 세기
 	int Total = sizeof(A) / sizeof(int);
 	cout << "문자열의 개수 : " << Total << endl;
